@@ -22,16 +22,24 @@
       <div class="question">
         <p>1) Você representa qual tipo de organização abaixo?</p>
         <div>
-          <input type="radio" id="startup" name="orgtype" value="Startup/Agtech" required />
-          <label for="startup">Startup/Agtech</label>
+          <input type="radio" id="orghub" name="orgtype" value="Hub" required />
+          <label for="orghub">Hub</label>
         </div>
         <div>
-          <input type="radio" id="cooperativa" name="orgtype" value="Cooperativa" />
-          <label for="cooperativa">Cooperativa</label>
+          <input type="radio" id="orgacel" name="orgtype" value="Aceleradora" />
+          <label for="orgacel">Aceleradora</label>
         </div>
         <div>
-          <input type="radio" id="agroorg" name="orgtype" value="Organização do agronegócio (Empresas)" />
-          <label for="agroorg">Organização do agronegócio (Empresas)</label>
+          <input type="radio" id="orgnit" name="orgtype" value="NIT - Núcleo de Inovação Tecnológica" />
+          <label for="orgnit">NIT - Núcleo de Inovação Tecnológica</label>
+        </div>
+        <div>
+          <input type="radio" id="orgincub" name="orgtype" value="Incubadora" />
+          <label for="orgincub">Incubadora</label>
+        </div>
+        <div>
+          <input type="radio" id="orgptec" name="orgtype" value="Parque Tecnológico" />
+          <label for="orgptec">Parque Tecnológico</label>
         </div>
       </div>
 
@@ -44,34 +52,9 @@
       </div>
 
       <div class="question">
-        <p>3) Qual o seu cargo dentro da organização?</p>
+        <label for="cargo">3) Qual o seu cargo dentro da organização?</label>
         <div>
-          <input type="radio" id="ceo" name="cargo" value="CEO / Founder / Presidente ou similar" required />
-          <label for="ceo">CEO / Founder / Presidente ou similar</label>
-        </div>
-        <div>
-          <input type="radio" id="cto" name="cargo" value="CTO / Diretor de Inovação ou similar" />
-          <label for="cto">CTO / Diretor de Inovação ou similar</label>
-        </div>
-        <div>
-          <input type="radio" id="cfo" name="cargo" value="CFO ou similar" />
-          <label for="cfo">CFO ou similar</label>
-        </div>
-        <div>
-          <input type="radio" id="analista" name="cargo" value="Analista de inovação ou similar" />
-          <label for="analista">Analista de inovação ou similar</label>
-        </div>
-        <div>
-          <input type="radio" id="pesquisador" name="cargo" value="Pesquisador (a) ou similar" />
-          <label for="pesquisador">Pesquisador (a) ou similar</label>
-        </div>
-        <div>
-          <input type="radio" id="outro" name="cargo" value="Outro" />
-          <label for="outro">Outro</label>
-          <div class="hidden">
-            <label for="qualcargo">Qual?</p>
-            <input type="text" id="qualcargo" name="qualcargo" />
-          </div>
+          <input type="text" id="cargo" name="cargo" />
         </div>
       </div>
 
@@ -955,354 +938,12 @@
       </div>
 
       <div class="question">
-        <p>10) Quais demandas tecnológicas abaixo são estratégicas para a **sobrevivência do seu negócio**? 
-          Assinale até 3 e especifique nos campos qual a área de aplicação da demanda escolhida. Exemplos: 
-          
-          (X)Drones/Vants: Aplicação de herbicidas
-          (X)Visão Computacional: Processamento de imagens. Reconhecimento de doenças em plantas
-          (X)Edição genômica: Uso da tecnologia CRISPR para novas cultivares de café.</p>
-          <div class="hidden-validation-input">
-            <input type="radio" id="val6" name="valinpu6" value="validated" required />
-          </div>
-          
-          <div><input type="checkbox" name="sobrevivencia" id="ia" value="Inteligência Artificial (IA) e Aprendizado de máquina."/>
-          <label for="ia">Inteligência Artificial (IA) e Aprendizado de máquina.</label>
-          <div class="hidden-motive">
-            <label for="apia">Área de aplicação</label>
-            <input type="text" name="apia" id="apia"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="analytics" value="Analytics e Big Data."/>
-          <label for="analytics">Analytics e Big Data.</label>
-          <div class="hidden-motive">
-            <label for="apanalytics">Área de aplicação</label>
-            <input type="text" name="apanalytics" id="apanalytics"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="cloud" value="Cloud computing e cibersegurança."/>
-          <label for="cloud">Cloud computing e cibersegurança.</label>
-          <div class="hidden-motive">
-            <label for="apcloud">Área de aplicação</label>
-            <input type="text" name="apcloud" id="apcloud"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="interfaces" value="Interfaces naturais e assistentes virtuais."/>
-          <label for="interfaces">Interfaces naturais e assistentes virtuais.</label>
-          <div class="hidden-motive">
-            <label for="apinterfaces">Área de aplicação</label>
-            <input type="text" name="apinterfaces" id="apinterfaces"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="drones" value="Drones / Vants."/>
-          <label for="drones">Drones / Vants.</label>
-          <div class="hidden-motive">
-            <label for="apdrones">Área de aplicação</label>
-            <input type="text" name="apdrones" id="apdrones"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="visaocp" value="Visão computacional / Processamento de imagens (RA/RV)."/>
-          <label for="visaocp">Visão computacional / Processamento de imagens (RA/RV).</label>
-          <div class="hidden-motive">
-            <label for="apvisaocp">Área de aplicação</label>
-            <input type="text" name="apvisaocp" id="apvisaocp"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="saas" value="SaaS."/>
-          <label for="saas">SaaS.</label>
-          <div class="hidden-motive">
-            <label for="apsaas">Área de aplicação</label>
-            <input type="text" name="apsaas" id="apsaas"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="digitalt" value="Digital twins."/>
-          <label for="digitalt">Digital twins.</label>
-          <div class="hidden-motive">
-            <label for="apdigitalt">Área de aplicação</label>
-            <input type="text" name="apdigitalt" id="apdigitalt"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="meteoro" value="Meteorologia digital."/>
-          <label for="meteoro">Meteorologia digital.</label>
-          <div class="hidden-motive">
-            <label for="apmeteoro">Área de aplicação</label>
-            <input type="text" name="apmeteoro" id="apmeteoro"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="georef" value="Georreferenciamento e cartografia digital."/>
-          <label for="georef">Georreferenciamento e cartografia digital.</label>
-          <div class="hidden-motive">
-            <label for="apgeoref">Área de aplicação</label>
-            <input type="text" name="apgeoref" id="apgeoref"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="eos" value="EOS - Earth Observation System / Satélites."/>
-          <label for="eos">EOS - Earth Observation System / Satélites.</label>
-          <div class="hidden-motive">
-            <label for="apeos">Área de aplicação</label>
-            <input type="text" name="apeos" id="apeos"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="decarb" value="Descarbonização."/>
-          <label for="decarb">Descarbonização.</label>
-          <div class="hidden-motive">
-            <label for="apdecarb">Área de aplicação</label>
-            <input type="text" name="apdecarb" id="apdecarb"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="hidro" value="Hidrogênio Verde."/>
-          <label for="hidro">Hidrogênio Verde.</label>
-          <div class="hidden-motive">
-            <label for="aphidro">Área de aplicação</label>
-            <input type="text" name="aphidro" id="aphidro"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="combs" value="Combustíveis e energias alternativas."/>
-          <label for="combs">Combustíveis e energias alternativas.</label>
-          <div class="hidden-motive">
-            <label for="apcombs">Área de aplicação</label>
-            <input type="text" name="apcombs" id="apcombs"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="biobased" value="Biobased resíduos."/>
-          <label for="biobased">Biobased resíduos.</label>
-          <div class="hidden-motive">
-            <label for="apbiobased">Área de aplicação</label>
-            <input type="text" name="apbiobased" id="apbiobased"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="proteinas" value="Proteínas alternativas."/>
-          <label for="proteinas">Proteínas alternativas.</label>
-          <div class="hidden-motive">
-            <label for="approteinas">Área de aplicação</label>
-            <input type="text" name="approteinas" id="approteinas"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="edgenom" value="Edição genômica."/>
-          <label for="edgenom">Edição genômica.</label>
-          <div class="hidden-motive">
-            <label for="apedgenom">Área de aplicação</label>
-            <input type="text" name="apedgenom" id="apedgenom"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="fenotip" value="Fenotipagem digital."/>
-          <label for="fenotip">Fenotipagem digital.</label>
-          <div class="hidden-motive">
-            <label for="apfenotip">Área de aplicação</label>
-            <input type="text" name="apfenotip" id="apfenotip"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="anatomia" value="Autonomia e computação de borda."/>
-          <label for="anatomia">Autonomia e computação de borda.</label>
-          <div class="hidden-motive">
-            <label for="apanatomia">Área de aplicação</label>
-            <input type="text" name="apanatomia" id="apanatomia"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="iot" value="IoT / Sensores."/>
-          <label for="iot">IoT / Sensores.</label>
-          <div class="hidden-motive">
-            <label for="apiot">Área de aplicação</label>
-            <input type="text" name="apiot" id="apiot"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="blockchain" value="Blockchain."/>
-          <label for="blockchain">Blockchain.</label>
-          <div class="hidden-motive">
-            <label for="apblockchain">Área de aplicação</label>
-            <input type="text" name="apblockchain" id="apblockchain"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="token" value="Tokenização de ativos."/>
-          <label for="token">Tokenização de ativos.</label>
-          <div class="hidden-motive">
-            <label for="aptoken">Área de aplicação</label>
-            <input type="text" name="aptoken" id="aptoken"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="conect" value="Conectividade 5G."/>
-          <label for="conect">Conectividade 5G.</label>
-          <div class="hidden-motive">
-            <label for="apconect">Área de aplicação</label>
-            <input type="text" name="apconect" id="apconect"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="biotec" value="Biotecnologia."/>
-          <label for="biotec">Biotecnologia.</label>
-          <div class="hidden-motive">
-            <label for="apbiotec">Área de aplicação</label>
-            <input type="text" name="apbiotec" id="apbiotec"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="nanotec" value="Nanotecnologia."/>
-          <label for="nanotec">Nanotecnologia.</label>
-          <div class="hidden-motive">
-            <label for="apnanotec">Área de aplicação</label>
-            <input type="text" name="apnanotec" id="apnanotec"/>
-          </div></div>
-          <div><input type="checkbox" name="sobrevivencia" id="metaverso" value="Metaverso."/>
-          <label for="metaverso">Metaverso.</label>
-          <div class="hidden-motive">
-            <label for="apmetaverso">Área de aplicação</label>
-            <input type="text" name="apmetaverso" id="apmetaverso"/>
-          </div></div>
-          
-      </div>
-
-
-      <div class="question">
-        <p>11) Quais demandas tecnológicas abaixo sua organização faria investimentos para dar um salto nos negócios? 
-          Assinale até 3 e especifique nos campos qual a área de aplicação da demanda escolhida. Exemplos: 
-          
-          (X)Drones/Vants: Aplicação de herbicidas
-          (X)Visão Computacional: Processamento de imagens. Reconhecimento de doenças em plantas
-          (X)Edição genômica: Uso da tecnologia CRISPR para novas cultivares de café.</p>
-        
-          <div class="hidden-validation-input">
-            <input type="radio" id="val7" name="valinpu7" value="validated" required/>
-          </div>
-          <div><input type="checkbox" name="salto" id="slt_ia" value="Inteligência Artificial (IA) e Aprendizado de máquina."/>
-          <label for="slt_ia">Inteligência Artificial (IA) e Aprendizado de máquina.</label>
-          <div class="hidden-motive">
-            <label for="slt_apia">Área de aplicação</label>
-            <input type="text" name="slt_apia" id="slt_apia"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_analytics" value="Analytics e Big Data."/>
-          <label for="slt_analytics">Analytics e Big Data.</label>
-          <div class="hidden-motive">
-            <label for="slt_apanalytics">Área de aplicação</label>
-            <input type="text" name="slt_apanalytics" id="slt_apanalytics"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_cloud" value="Cloud computing e cibersegurança."/>
-          <label for="slt_cloud">Cloud computing e cibersegurança.</label>
-          <div class="hidden-motive">
-            <label for="slt_apcloud">Área de aplicação</label>
-            <input type="text" name="slt_apcloud" id="slt_apcloud"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_interfaces" value="Interfaces naturais e assistentes virtuais."/>
-          <label for="slt_interfaces">Interfaces naturais e assistentes virtuais.</label>
-          <div class="hidden-motive">
-            <label for="slt_apinterfaces">Área de aplicação</label>
-            <input type="text" name="slt_apinterfaces" id="slt_apinterfaces"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_drones" value="Drones / Vants."/>
-          <label for="slt_drones">Drones / Vants.</label>
-          <div class="hidden-motive">
-            <label for="slt_apdrones">Área de aplicação</label>
-            <input type="text" name="slt_apdrones" id="slt_apdrones"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_visaocp" value="Visão computacional / Processamento de imagens (RA/RV)."/>
-          <label for="slt_visaocp">Visão computacional / Processamento de imagens (RA/RV).</label>
-          <div class="hidden-motive">
-            <label for="slt_apvisaocp">Área de aplicação</label>
-            <input type="text" name="slt_apvisaocp" id="slt_apvisaocp"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_saas" value="SaaS."/>
-          <label for="slt_saas">SaaS.</label>
-          <div class="hidden-motive">
-            <label for="slt_apsaas">Área de aplicação</label>
-            <input type="text" name="slt_apsaas" id="slt_apsaas"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_digitalt" value="Digital twins."/>
-          <label for="slt_digitalt">Digital twins.</label>
-          <div class="hidden-motive">
-            <label for="slt_apdigitalt">Área de aplicação</label>
-            <input type="text" name="slt_apdigitalt" id="slt_apdigitalt"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_meteoro" value="Meteorologia digital."/>
-          <label for="slt_meteoro">Meteorologia digital.</label>
-          <div class="hidden-motive">
-            <label for="slt_apmeteoro">Área de aplicação</label>
-            <input type="text" name="slt_apmeteoro" id="slt_apmeteoro"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_georef" value="Georreferenciamento e cartografia digital."/>
-          <label for="slt_georef">Georreferenciamento e cartografia digital.</label>
-          <div class="hidden-motive">
-            <label for="slt_apgeoref">Área de aplicação</label>
-            <input type="text" name="slt_apgeoref" id="slt_apgeoref"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_eos" value="EOS - Earth Observation System / Satélites."/>
-          <label for="slt_eos">EOS - Earth Observation System / Satélites.</label>
-          <div class="hidden-motive">
-            <label for="slt_apeos">Área de aplicação</label>
-            <input type="text" name="slt_apeos" id="slt_apeos"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_decarb" value="Descarbonização."/>
-          <label for="slt_decarb">Descarbonização.</label>
-          <div class="hidden-motive">
-            <label for="slt_apdecarb">Área de aplicação</label>
-            <input type="text" name="slt_apdecarb" id="slt_apdecarb"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_hidro" value="Hidrogênio Verde."/>
-          <label for="slt_hidro">Hidrogênio Verde.</label>
-          <div class="hidden-motive">
-            <label for="slt_aphidro">Área de aplicação</label>
-            <input type="text" name="slt_aphidro" id="slt_aphidro"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_combs" value="Combustíveis e energias alternativas."/>
-          <label for="slt_combs">Combustíveis e energias alternativas.</label>
-          <div class="hidden-motive">
-            <label for="slt_apcombs">Área de aplicação</label>
-            <input type="text" name="slt_apcombs" id="slt_apcombs"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_biobased" value="Biobased resíduos."/>
-          <label for="slt_biobased">Biobased resíduos.</label>
-          <div class="hidden-motive">
-            <label for="slt_apbiobased">Área de aplicação</label>
-            <input type="text" name="slt_apbiobased" id="slt_apbiobased"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_proteinas" value="Proteínas alternativas."/>
-          <label for="slt_proteinas">Proteínas alternativas.</label>
-          <div class="hidden-motive">
-            <label for="slt_approteinas">Área de aplicação</label>
-            <input type="text" name="slt_approteinas" id="slt_approteinas"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_edgenom" value="Edição genômica."/>
-          <label for="slt_edgenom">Edição genômica.</label>
-          <div class="hidden-motive">
-            <label for="slt_apedgenom">Área de aplicação</label>
-            <input type="text" name="slt_apedgenom" id="slt_apedgenom"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_fenotip" value="Fenotipagem digital."/>
-          <label for="slt_fenotip">Fenotipagem digital.</label>
-          <div class="hidden-motive">
-            <label for="slt_apfenotip">Área de aplicação</label>
-            <input type="text" name="slt_apfenotip" id="slt_apfenotip"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_anatomia" value="Autonomia e computação de borda."/>
-          <label for="slt_anatomia">Autonomia e computação de borda.</label>
-          <div class="hidden-motive">
-            <label for="slt_apanatomia">Área de aplicação</label>
-            <input type="text" name="slt_apanatomia" id="slt_apanatomia"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_iot" value="IoT / Sensores."/>
-          <label for="slt_iot">IoT / Sensores.</label>
-          <div class="hidden-motive">
-            <label for="slt_apiot">Área de aplicação</label>
-            <input type="text" name="slt_apiot" id="slt_apiot"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_blockchain" value="Blockchain."/>
-          <label for="slt_blockchain">Blockchain.</label>
-          <div class="hidden-motive">
-            <label for="slt_apblockchain">Área de aplicação</label>
-            <input type="text" name="slt_apblockchain" id="slt_apblockchain"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_token" value="Tokenização de ativos."/>
-          <label for="slt_token">Tokenização de ativos.</label>
-          <div class="hidden-motive">
-            <label for="slt_aptoken">Área de aplicação</label>
-            <input type="text" name="slt_aptoken" id="slt_aptoken"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_conect" value="Conectividade 5G."/>
-          <label for="slt_conect">Conectividade 5G.</label>
-          <div class="hidden-motive">
-            <label for="slt_apconect">Área de aplicação</label>
-            <input type="text" name="slt_apconect" id="slt_apconect"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_biotec" value="Biotecnologia."/>
-          <label for="slt_biotec">Biotecnologia.</label>
-          <div class="hidden-motive">
-            <label for="slt_apbiotec">Área de aplicação</label>
-            <input type="text" name="slt_apbiotec" id="slt_apbiotec"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_nanotec" value="Nanotecnologia."/>
-          <label for="slt_nanotec">Nanotecnologia.</label>
-          <div class="hidden-motive">
-            <label for="slt_apnanotec">Área de aplicação</label>
-            <input type="text" name="slt_apnanotec" id="slt_apnanotec"/>
-          </div></div>
-          <div><input type="checkbox" name="salto" id="slt_metaverso" value="Metaverso."/>
-          <label for="slt_metaverso">Metaverso.</label>
-          <div class="hidden-motive">
-            <label for="slt_apmetaverso">Área de aplicação</label>
-            <input type="text" name="slt_apmetaverso" id="slt_apmetaverso"/>
-          </div></div>
-          
-      </div>
-
-
-      <div class="question">
-        <label for="expectativa">12) Qual a expectativa da organização que você representa em participar de ecossistemas de inovação do agronegócio?</label>
+        <label for="expectativa">10) Qual a expectativa da organização que você representa em participar de ecossistemas de inovação do agronegócio?</label>
         <textarea name="expectativa" id="expectativa" required cols="30" rows="6"></textarea>
         
       </div>
       <div class="question">
-        <label for="expectativa_ciaes">13) Qual a expectativa da organização que você representa em participar do Corredor de Inovação Agropecuária do Estado de São Paulo?</label>
+        <label for="expectativa_ciaes">11) Qual a expectativa da organização que você representa em participar do Corredor de Inovação Agropecuária do Estado de São Paulo?</label>
         <textarea name="expectativa_ciaes" id="expectativa_ciaes" required cols="30" rows="6"></textarea>
       </div>
 
@@ -1560,16 +1201,7 @@
       })
 
       const data = {};
-      // const alpy = await formData;
-      // const respy = await formData.forEach((value, key) => {
-      //     if (value !== "" && !key.startsWith('stl_ap' && !key.startsWith('ap'))) {
-      //       if (key == 'sobrevivencia' || key == 'salto') {
-      //         data[key] = formData.getAll(key).join(", ");
-      //       } else {
-      //         data[key] = value;
-      //       }
-      //     }
-      // });
+     
       formData.forEach((value, key) => {
           if (value !== "" && !key.startsWith('stl_ap' && !key.startsWith('ap'))) {
             if (key == 'sobrevivencia' || key == 'salto') {
@@ -1579,11 +1211,6 @@
             }
           }
       });
-      // const alw = await JSON.stringify(data);
-      // console.log(alw);
-      // console.log(alpy);
-      // console.log(data)
-
 
       const response = await fetch('https://script.google.com/macros/s/AKfycbxEJRRMcgtCxiXnq0-FJrDR0bLQ4n4TMVJe_gOi9e95UNNSdgLDVN8CGF5y2LUkqRyu/exec', {
           redirect: "follow",
