@@ -5,19 +5,1310 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
-    <div id="tripetto-tid7ed"></div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/@tripetto/runner"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tripetto/runner-classic"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tripetto/studio"></script>
-    <script>
-    TripettoStudio.form({
-        runner: TripettoClassic,
-        token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoia1pJWS8yZ2JLY0trcUNMcFZ4Y1J0cEczV3duTDhiZDVsWXBRLzR5WnZjVT0iLCJkZWZpbml0aW9uIjoiWEt0aFEvVEt5TFVvOFBMQ2d3VlpGOFh1RXAya1YrbjQxVWc1ZisxS2xyMD0iLCJ0eXBlIjoiY29sbGVjdCJ9.dnv2mTHgwNozxpkX5w1NIVoF7dFFfP85ZaAoEUvNP9Y",
-        element: "tripetto-tid7ed"
-    });
-  </script>
+<body class="body-starter">
+  <div>
+    <div class="presentation-notice">
+      <div>
+        <p>Ol&aacute;! Voc&ecirc; est&aacute; sendo convidado(a) para participar de uma pesquisa que busca entender melhor o Corredor de Inova&ccedil;&atilde;o Agropecu&aacute;ria de S&atilde;o Paulo ou Corredor Agro.&nbsp;</p>
+        <p>O Corredor de Inova&ccedil;&atilde;o Agropecu&aacute;rio de S&atilde;o Paulo &eacute; uma iniciativa p&uacute;blico-privada lan&ccedil;ada em 2022 durante a Agrishow em Ribeir&atilde;o Preto-SP. Consiste em um corredor de aproximadamente 420 km que envolve 5 importantes ecossistemas agtechs de SP e do Brasil: Ribeir&atilde;o Preto, S&atilde;o Carlos, Piracicaba, Campinas e S&atilde;o Jos&eacute; dos Campos e suas regi&otilde;es.</p>
+        <p>O objetivo deste trabalho &eacute; verificar como se constitui o corredor Agro com suas respectivas redes de relacionamento, al&eacute;m de identificar as principais demandas de tecnologias que os atores (voc&ecirc;s) tem e estrutur&aacute;-las por &aacute;reas tecnol&oacute;gicas. Pretende-se tamb&eacute;m identificar a natureza dos relacionamentos entre os atores. Ao final ser&aacute; gerado um relat&oacute;rio com as principais demandas e as &aacute;reas tecnol&oacute;gicas para todos os atores que comp&otilde;em esse importante ecossistema, al&eacute;m do estudo colaborar para que o corredor ganhe visibilidade e busque atra&ccedil;&atilde;o de investimentos e de interessados em cooperar.</p>
+        <p>As respostas desse question&aacute;rio ser&atilde;o enviadas para o pesquisador Vin&iacute;cius Kuromoto, mestrando em Administra&ccedil;&atilde;o de Organiza&ccedil;&otilde;es na Faculdade de Economia, Administra&ccedil;&atilde;o e Contabilidade de Ribeir&atilde;o Preto da Universidade de S&atilde;o Paulo (USP). Caso tenha alguma d&uacute;vida, o contato do pesquisador &eacute; o vinicius.kuromoto@usp.br&nbsp;</p>
+        <p>Ao responder o question&aacute;rio, voc&ecirc; concorda em participar do estudo e confirma que compreendeu os objetivos do presente trabalho.</p>
+        <button class="form-starter" type="button">Iniciar</button>
+      </div>
+    </div>
+    <form action="https://script.google.com/macros/s/AKfycbxQS-wK6nyUvf8B-vdhmDwH31VoLx90MydA2Ebxl0DX4LArfc1e4UNuPohNTB9uRLVO/exec" id="form">
+      
+      <div class="question">
+        <p>1) Você representa qual tipo de organização abaixo?</p>
+        <div>
+          <input type="radio" id="startup" name="orgtype" value="Startup/Agtech" required />
+          <label for="startup">Startup/Agtech</label>
+        </div>
+        <div>
+          <input type="radio" id="cooperativa" name="orgtype" value="Cooperativa" />
+          <label for="cooperativa">Cooperativa</label>
+        </div>
+        <div>
+          <input type="radio" id="agroorg" name="orgtype" value="Organização do agronegócio (Empresas)" />
+          <label for="agroorg">Organização do agronegócio (Empresas)</label>
+        </div>
+      </div>
+
+
+      <div class="question">
+        <label for="orgname">2) Qual o nome da organização que você representa?</label>
+        <div>
+          <input type="text" id="orgname" name="orgname" required />
+        </div>
+      </div>
+
+      <div class="question">
+        <p>3) Qual seu cargo dentro da organização?</p>
+        <div>
+          <input type="radio" id="ceo" name="cargo" value="CEO / Founder / Presidente ou similar" required />
+          <label for="ceo">CEO / Founder / Presidente ou similar</label>
+        </div>
+        <div>
+          <input type="radio" id="cto" name="cargo" value="CTO / Diretor de Inovação ou similar" />
+          <label for="cto">CTO / Diretor de Inovação ou similar</label>
+        </div>
+        <div>
+          <input type="radio" id="cfo" name="cargo" value="CFO ou similar" />
+          <label for="cfo">CFO ou similar</label>
+        </div>
+        <div>
+          <input type="radio" id="analista" name="cargo" value="Analista de inovação ou similar" />
+          <label for="analista">Analista de inovação ou similar</label>
+        </div>
+        <div>
+          <input type="radio" id="pesquisador" name="cargo" value="Pesquisador (a) ou similar" />
+          <label for="pesquisador">Pesquisador (a) ou similar</label>
+        </div>
+        <div>
+          <input type="radio" id="outro" name="cargo" value="Outro" />
+          <label for="outro">Outro</label>
+          <div class="hidden">
+            <label for="qualcargo">Qual?</p>
+            <input type="text" id="qualcargo" name="qualcargo" />
+          </div>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>4) Em qual dos ecossistemas abaixo, a sua organização está inserida? Marque apenas o ecossistema principal</p>
+        <div>
+          <input type="radio" id="campinas" name="ecosis" value="Campinas e Região" required />
+          <label for="campinas">Campinas e Região</label>
+        </div>
+        <div>
+          <input type="radio" id="piracicaba" name="ecosis" value="Piracicaba e Região" />
+          <label for="piracicaba">Piracicaba e Região</label>
+        </div>
+        <div>
+          <input type="radio" id="ribeirao" name="ecosis" value="Ribeirão Preto e Região" />
+          <label for="ribeirao">Ribeirão Preto e Região</label>
+        </div>
+        <div>
+          <input type="radio" id="saocarlos" name="ecosis" value="São Carlos e Região" />
+          <label for="saocarlos">São Carlos e Região</label>
+        </div>
+        <div>
+          <input type="radio" id="saojose" name="ecosis" value="São José dos Campos e Região" />
+          <label for="saojose">São José dos Campos e Região</label>
+        </div>
+      </div>
+
+
+      <div class="question">
+        <p>5) Sua organização já teve ou tem parceria com organizações (startups, empresas do agronegócio, universidades, institutos de pesquisa, hubs, parques tecnológicos, aceleradoras, incubadoras, cooperativas, empresas de venture capital, FAPESP, secretarias municipais de C&T, NITS e etc) da região de Ribeirão Preto?</p>
+        <input type="radio" id="ribsim" name="parceriaribeirao" value="Sim" required />
+        <label for="ribsim">Sim</label>
+        <input type="radio" id="ribnao" name="parceriaribeirao" value="Não" />
+        <label for="ribnao">Não</label>
+        <fieldset class="fieldhidden">
+          <legend>Assinale os tipos de organização que a organização que você representa tem ou teve parceria</legend>
+          <div class="hidden-validation-input">
+            <input type="radio" id="val1" name="valinput" value="validated" />
+          </div>
+          <div>
+            <input type="checkbox" name="parcerias" id="hubs" value="Hubs de inovação"/>
+            <label for="hubs">Hubs de inovação</label>
+            <div class="hidden">
+              <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+              <input type="radio" name="hubsform" id="hubsformal" value="Formal">
+              <label for="hubsformal">Formal</label>
+              <input type="radio" name="hubsform" id="hubsinformal" value="Informal">
+              <label for="hubsinformal">Informal</label>
+              <input type="radio" name="hubsform" id="hubsmismal" value="Ambas igualmente">
+              <label for="hubsmismal">Ambas igualmente</label>
+            </div>
+          </div>
+          <div>
+            <input type="checkbox" name="parcerias" id="parques" value="Parques tecnológicos"/>
+            <label for="parques">Parques tecnológicos</label>
+            <div class="hidden">
+              <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+              <input type="radio" name="parquesform" id="parquesformal" value="Formal">
+              <label for="parquesformal">Formal</label>
+              <input type="radio" name="parquesform" id="parquesinformal" value="Informal">
+              <label for="parquesinformal">Informal</label>
+              <input type="radio" name="parquesform" id="parquesmismal" value="Ambas igualmente">
+              <label for="parquesmismal">Ambas igualmente</label>
+            </div>
+          </div>
+          
+          <div><input type="checkbox" name="parcerias" id="aceleradoras" value="Aceleradoras"/>
+          <label for="aceleradoras">Aceleradoras</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="aceleradorasform" id="aceleradorasformal" value="Formal">
+            <label for="aceleradorasformal">Formal</label>
+            <input type="radio" name="aceleradorasform" id="aceleradorasinformal" value="Informal">
+            <label for="aceleradorasinformal">Informal</label>
+            <input type="radio" name="aceleradorasform" id="aceleradorasmismal" value="Ambas igualmente">
+            <label for="aceleradorasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias" id="incubadoras" value="Incubadoras"/>
+          <label for="incubadoras">Incubadoras</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="incubadorasform" id="incubadorasformal" value="Formal">
+            <label for="incubadorasformal">Formal</label>
+            <input type="radio" name="incubadorasform" id="incubadorasinformal" value="Informal">
+            <label for="incubadorasinformal">Informal</label>
+            <input type="radio" name="incubadorasform" id="incubadorasmismal" value="Ambas igualmente">
+            <label for="incubadorasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias" id="cooperativas" value="Cooperativas"/>
+          <label for="cooperativas">Cooperativas</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cooperativasform" id="cooperativasformal" value="Formal">
+            <label for="cooperativasformal">Formal</label>
+            <input type="radio" name="cooperativasform" id="cooperativasinformal" value="Informal">
+            <label for="cooperativasinformal">Informal</label>
+            <input type="radio" name="cooperativasform" id="cooperativasmismal" value="Ambas igualmente">
+            <label for="cooperativasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias" id="agroempresas" value="Empresas de agronegócio"/>
+          <label for="agroempresas">Empresas de Agronegócio</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="agroempresasform" id="agroempresasformal" value="Formal">
+            <label for="agroempresasformal">Formal</label>
+            <input type="radio" name="agroempresasform" id="agroempresasinformal" value="Informal">
+            <label for="agroempresasinformal">Informal</label>
+            <input type="radio" name="agroempresasform" id="agroempresasmismal" value="Ambas igualmente">
+            <label for="agroempresasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias" id="venture" value="Venture Capital"/>
+          <label for="venture">Venture Capital</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="ventureform" id="ventureformal" value="Formal">
+            <label for="ventureformal">Formal</label>
+            <input type="radio" name="ventureform" id="ventureinformal" value="Informal">
+            <label for="ventureinformal">Informal</label>
+            <input type="radio" name="ventureform" id="venturemismal" value="Ambas igualmente">
+            <label for="venturemismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias" id="fapesp" value="FAPESP"/>
+          <label for="fapesp">FAPESP</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="fapespform" id="fapespformal" value="Formal">
+            <label for="fapespformal">Formal</label>
+            <input type="radio" name="fapespform" id="fapespinformal" value="Informal">
+            <label for="fapespinformal">Informal</label>
+            <input type="radio" name="fapespform" id="fapespmismal" value="Ambas igualmente">
+            <label for="fapespmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias" id="ies" value="Instituição de Ensino Superior (IES)"/>
+          <label for="ies">Instituição de Ensino Superior (IES)</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="iesform" id="iesformal" value="Formal">
+            <label for="iesformal">Formal</label>
+            <input type="radio" name="iesform" id="iesinformal" value="Informal">
+            <label for="iesinformal">Informal</label>
+            <input type="radio" name="iesform" id="iesmismal" value="Ambas igualmente">
+            <label for="iesmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias" id="centrospesq" value="Centros de Pesquisa e Desenvolvimento"/>
+          <label for="centrospesq">Centros de Pesquisa e Desenvolvimento</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="centrospesqform" id="centrospesqformal" value="Formal">
+            <label for="centrospesqformal">Formal</label>
+            <input type="radio" name="centrospesqform" id="centrospesqinformal" value="Informal">
+            <label for="centrospesqinformal">Informal</label>
+            <input type="radio" name="centrospesqform" id="centrospesqmismal" value="Ambas igualmente">
+            <label for="centrospesqmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias" id="nit" value="NIT (Núcleos de Inovação Tecnológica)"/>
+          <label for="nit">NIT (Núcleos de Inovação Tecnológica)</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="nitform" id="nitformal" value="Formal">
+            <label for="nitformal">Formal</label>
+            <input type="radio" name="nitform" id="nitinformal" value="Informal">
+            <label for="nitinformal">Informal</label>
+            <input type="radio" name="nitform" id="nitmismal" value="Ambas igualmente">
+            <label for="nitmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias" id="startups" value="Startups"/>
+          <label for="startups">Startups</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="startupsform" id="startupsformal" value="Formal">
+            <label for="startupsformal">Formal</label>
+            <input type="radio" name="startupsform" id="startupsinformal" value="Informal">
+            <label for="startupsinformal">Informal</label>
+            <input type="radio" name="startupsform" id="startupsmismal" value="Ambas igualmente">
+            <label for="startupsmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias" id="prefs" value="Prefeituras/Secretarias Municipais / Secretarias Estaduais"/>
+          <label for="prefs">Prefeituras/Secretarias Municipais / Secretarias Estaduais</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="prefsform" id="prefsformal" value="Formal">
+            <label for="prefsformal">Formal</label>
+            <input type="radio" name="prefsform" id="prefsinformal" value="Informal">
+            <label for="prefsinformal">Informal</label>
+            <input type="radio" name="prefsform" id="prefsmismal" value="Ambas igualmente">
+            <label for="prefsmismal">Ambas igualmente</label>
+          </div>
+          </div>
+          <div><input type="checkbox" name="parcerias" id="assistencia" value="Órgãos de Assistência Técnica"/>
+          <label for="assistencia">Órgãos de Assistência Técnica</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="assistenciaform" id="assistenciaformal" value="Formal">
+            <label for="assistenciaformal">Formal</label>
+            <input type="radio" name="assistenciaform" id="assistenciainformal" value="Informal">
+            <label for="assistenciainformal">Informal</label>
+            <input type="radio" name="assistenciaform" id="assistenciamismal" value="Ambas igualmente">
+            <label for="assistenciamismal">Ambas igualmente</label>
+          </div></div>
+        </fieldset>
+      </div>
+
+
+      <div class="question">
+        <p>6) Sua organização já teve ou tem parceria com organizações (startups, empresas do agronegócio, universidades, institutos de pesquisa, hubs, parques tecnológicos, aceleradoras, incubadoras, cooperativas, empresas de venture capital, FAPESP, secretarias municipais de C&T, NITS e etc) da região de São Carlos?</p>
+        <input type="radio" id="saocarlossim" name="parceriacarlos" value="Sim" required />
+        <label for="saocarlossim">Sim</label>
+        <input type="radio" id="saocarlosnao" name="parceriacarlos" value="Não"  />
+        <label for="saocarlosnao">Não</label>
+        <fieldset class="fieldhidden">
+          <legend>Assinale os tipos de organização que a organização que você representa tem ou teve parceria</legend>
+          <div class="hidden-validation-input">
+            <input type="radio" id="val2" name="valinput2" value="validated" />
+          </div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_hubs" value="Hubs de inovação"/>
+          <label for="sc_hubs">Hubs de inovação</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_hubsform" id="sc_hubsformal" value="Formal">
+            <label for="sc_hubsformal">Formal</label>
+            <input type="radio" name="sc_hubsform" id="sc_hubsinformal" value="Informal">
+            <label for="sc_hubsinformal">Informal</label>
+            <input type="radio" name="sc_hubsform" id="sc_hubsmismal" value="Ambas igualmente">
+            <label for="sc_hubsmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_parques" value="Parques tecnológicos"/>
+          <label for="sc_parques">Parques tecnológicos</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_parquesform" id="sc_parquesformal" value="Formal">
+            <label for="sc_parquesformal">Formal</label>
+            <input type="radio" name="sc_parquesform" id="sc_parquesinformal" value="Informal">
+            <label for="sc_parquesinformal">Informal</label>
+            <input type="radio" name="sc_parquesform" id="sc_parquesmismal" value="Ambas igualmente">
+            <label for="sc_parquesmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_aceleradoras" value="Aceleradoras"/>
+          <label for="sc_aceleradoras">Aceleradoras</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_aceleradorasform" id="sc_aceleradorasformal" value="Formal">
+            <label for="sc_aceleradorasformal">Formal</label>
+            <input type="radio" name="sc_aceleradorasform" id="sc_aceleradorasinformal" value="Informal">
+            <label for="sc_aceleradorasinformal">Informal</label>
+            <input type="radio" name="sc_aceleradorasform" id="sc_aceleradorasmismal" value="Ambas igualmente">
+            <label for="sc_aceleradorasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_incubadoras" value="Incubadoras"/>
+          <label for="sc_incubadoras">Incubadoras</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_incubadorasform" id="sc_incubadorasformal" value="Formal">
+            <label for="sc_incubadorasformal">Formal</label>
+            <input type="radio" name="sc_incubadorasform" id="sc_incubadorasinformal" value="Informal">
+            <label for="sc_incubadorasinformal">Informal</label>
+            <input type="radio" name="sc_incubadorasform" id="sc_incubadorasmismal" value="Ambas igualmente">
+            <label for="sc_incubadorasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_cooperativas" value="Cooperativas"/>
+          <label for="sc_cooperativas">Cooperativas</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_cooperativasform" id="sc_cooperativasformal" value="Formal">
+            <label for="sc_cooperativasformal">Formal</label>
+            <input type="radio" name="sc_cooperativasform" id="sc_cooperativasinformal" value="Informal">
+            <label for="sc_cooperativasinformal">Informal</label>
+            <input type="radio" name="sc_cooperativasform" id="sc_cooperativasmismal" value="Ambas igualmente">
+            <label for="sc_cooperativasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_agroempresas" value="Empresas de agronegócio"/>
+          <label for="sc_agroempresas">Empresas de Agronegócio</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_agroempresasform" id="sc_agroempresasformal" value="Formal">
+            <label for="sc_agroempresasformal">Formal</label>
+            <input type="radio" name="sc_agroempresasform" id="sc_agroempresasinformal" value="Informal">
+            <label for="sc_agroempresasinformal">Informal</label>
+            <input type="radio" name="sc_agroempresasform" id="sc_agroempresasmismal" value="Ambas igualmente">
+            <label for="sc_agroempresasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_venture" value="Venture Capital"/>
+          <label for="sc_venture">Venture Capital</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_ventureform" id="sc_ventureformal" value="Formal">
+            <label for="sc_ventureformal">Formal</label>
+            <input type="radio" name="sc_ventureform" id="sc_ventureinformal" value="Informal">
+            <label for="sc_ventureinformal">Informal</label>
+            <input type="radio" name="sc_ventureform" id="sc_venturemismal" value="Ambas igualmente">
+            <label for="sc_venturemismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_fapesp" value="FAPESP"/>
+          <label for="sc_fapesp">FAPESP</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_fapespform" id="sc_fapespformal" value="Formal">
+            <label for="sc_fapespformal">Formal</label>
+            <input type="radio" name="sc_fapespform" id="sc_fapespinformal" value="Informal">
+            <label for="sc_fapespinformal">Informal</label>
+            <input type="radio" name="sc_fapespform" id="sc_fapespmismal" value="Ambas igualmente">
+            <label for="sc_fapespmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_ies" value="Instituição de Ensino Superior (IES)"/>
+          <label for="sc_ies">Instituição de Ensino Superior (IES)</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_iesform" id="sc_iesformal" value="Formal">
+            <label for="sc_iesformal">Formal</label>
+            <input type="radio" name="sc_iesform" id="sc_iesinformal" value="Informal">
+            <label for="sc_iesinformal">Informal</label>
+            <input type="radio" name="sc_iesform" id="sc_iesmismal" value="Ambas igualmente">
+            <label for="sc_iesmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_centrospesq" value="Centros de Pesquisa e Desenvolvimento"/>
+          <label for="sc_centrospesq">Centros de Pesquisa e Desenvolvimento</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_centrospesqform" id="sc_centrospesqformal" value="Formal">
+            <label for="sc_centrospesqformal">Formal</label>
+            <input type="radio" name="sc_centrospesqform" id="sc_centrospesqinformal" value="Informal">
+            <label for="sc_centrospesqinformal">Informal</label>
+            <input type="radio" name="sc_centrospesqform" id="sc_centrospesqmismal" value="Ambas igualmente">
+            <label for="sc_centrospesqmismal">Ambas igualmente</label></div>
+          </div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_nit" value="NIT (Núcleos de Inovação Tecnológica)"/>
+          <label for="sc_nit">NIT (Núcleos de Inovação Tecnológica)</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_nitform" id="sc_nitformal" value="Formal">
+            <label for="sc_nitformal">Formal</label>
+            <input type="radio" name="sc_nitform" id="sc_nitinformal" value="Informal">
+            <label for="sc_nitinformal">Informal</label>
+            <input type="radio" name="sc_nitform" id="sc_nitmismal" value="Ambas igualmente">
+            <label for="sc_nitmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_startups" value="Startups"/>
+          <label for="sc_startups">Startups</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_startupsform" id="sc_startupsformal" value="Formal">
+            <label for="sc_startupsformal">Formal</label>
+            <input type="radio" name="sc_startupsform" id="sc_startupsinformal" value="Informal">
+            <label for="sc_startupsinformal">Informal</label>
+            <input type="radio" name="sc_startupsform" id="sc_startupsmismal" value="Ambas igualmente">
+            <label for="sc_startupsmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_prefs" value="Prefeituras/Secretarias Municipais / Secretarias Estaduais"/>
+          <label for="sc_prefs">Prefeituras/Secretarias Municipais / Secretarias Estaduais</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_prefsform" id="sc_prefsformal" value="Formal">
+            <label for="sc_prefsformal">Formal</label>
+            <input type="radio" name="sc_prefsform" id="sc_prefsinformal" value="Informal">
+            <label for="sc_prefsinformal">Informal</label>
+            <input type="radio" name="sc_prefsform" id="sc_prefsmismal" value="Ambas igualmente">
+            <label for="sc_prefsmismal">Ambas igualmente</label>
+          </div>
+          </div>
+          <div><input type="checkbox" name="parcerias_sc" id="sc_assistencia" value="Órgãos de Assistência Técnica"/>
+          <label for="sc_assistencia">Órgãos de Assistência Técnica</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sc_assistenciaform" id="sc_assistenciaformal" value="Formal">
+            <label for="sc_assistenciaformal">Formal</label>
+            <input type="radio" name="sc_assistenciaform" id="sc_assistenciainformal" value="Informal">
+            <label for="sc_assistenciainformal">Informal</label>
+            <input type="radio" name="sc_assistenciaform" id="sc_assistenciamismal" value="Ambas igualmente">
+            <label for="sc_assistenciamismal">Ambas igualmente</label>
+          </div></div>
+        </fieldset>
+      </div>
+
+
+     
+      <div class="question">
+        <p>7) Sua organização já teve ou tem parceria com organizações (startups, empresas do agronegócio, universidades, institutos de pesquisa, hubs, parques tecnológicos, aceleradoras, incubadoras, cooperativas, empresas de venture capital, FAPESP, secretarias municipais de C&T, NITS e etc) da região de Piracicaba?</p>
+        <input type="radio" id="piracicabasim" name="parceriapiracicaba" value="Sim" required />
+        <label for="piracicabasim">Sim</label>
+        <input type="radio" id="piracicabanao" name="parceriapiracicaba" value="Não" />
+        <label for="piracicabanao">Não</label>
+        <fieldset class="fieldhidden">
+          <legend>Assinale os tipos de organização que a organização que você representa tem ou teve parceria</legend>
+          <div class="hidden-validation-input">
+            <input type="radio" id="val3" name="valinput3" value="validated" />
+          </div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_hubs" value="Hubs de inovação"/>
+          <label for="pr_hubs">Hubs de inovação</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_hubsform" id="pr_hubsformal" value="Formal">
+            <label for="pr_hubsformal">Formal</label>
+            <input type="radio" name="pr_hubsform" id="pr_hubsinformal" value="Informal">
+            <label for="pr_hubsinformal">Informal</label>
+            <input type="radio" name="pr_hubsform" id="pr_hubsmismal" value="Ambas igualmente">
+            <label for="pr_hubsmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_parques" value="Parques tecnológicos"/>
+          <label for="pr_parques">Parques tecnológicos</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_parquesform" id="pr_parquesformal" value="Formal">
+            <label for="pr_parquesformal">Formal</label>
+            <input type="radio" name="pr_parquesform" id="pr_parquesinformal" value="Informal">
+            <label for="pr_parquesinformal">Informal</label>
+            <input type="radio" name="pr_parquesform" id="pr_parquesmismal" value="Ambas igualmente">
+            <label for="pr_parquesmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_aceleradoras" value="Aceleradoras"/>
+          <label for="pr_aceleradoras">Aceleradoras</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_aceleradorasform" id="pr_aceleradorasformal" value="Formal">
+            <label for="pr_aceleradorasformal">Formal</label>
+            <input type="radio" name="pr_aceleradorasform" id="pr_aceleradorasinformal" value="Informal">
+            <label for="pr_aceleradorasinformal">Informal</label>
+            <input type="radio" name="pr_aceleradorasform" id="pr_aceleradorasmismal" value="Ambas igualmente">
+            <label for="pr_aceleradorasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_incubadoras" value="Incubadoras"/>
+          <label for="pr_incubadoras">Incubadoras</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_incubadorasform" id="pr_incubadorasformal" value="Formal">
+            <label for="pr_incubadorasformal">Formal</label>
+            <input type="radio" name="pr_incubadorasform" id="pr_incubadorasinformal" value="Informal">
+            <label for="pr_incubadorasinformal">Informal</label>
+            <input type="radio" name="pr_incubadorasform" id="pr_incubadorasmismal" value="Ambas igualmente">
+            <label for="pr_incubadorasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_cooperativas" value="Cooperativas"/>
+          <label for="pr_cooperativas">Cooperativas</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_cooperativasform" id="pr_cooperativasformal" value="Formal">
+            <label for="pr_cooperativasformal">Formal</label>
+            <input type="radio" name="pr_cooperativasform" id="pr_cooperativasinformal" value="Informal">
+            <label for="pr_cooperativasinformal">Informal</label>
+            <input type="radio" name="pr_cooperativasform" id="pr_cooperativasmismal" value="Ambas igualmente">
+            <label for="pr_cooperativasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_agroempresas" value="Empresas de agronegócio"/>
+          <label for="pr_agroempresas">Empresas de Agronegócio</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_agroempresasform" id="pr_agroempresasformal" value="Formal">
+            <label for="pr_agroempresasformal">Formal</label>
+            <input type="radio" name="pr_agroempresasform" id="pr_agroempresasinformal" value="Informal">
+            <label for="pr_agroempresasinformal">Informal</label>
+            <input type="radio" name="pr_agroempresasform" id="pr_agroempresasmismal" value="Ambas igualmente">
+            <label for="pr_agroempresasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_venture" value="Venture Capital"/>
+          <label for="pr_venture">Venture Capital</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_ventureform" id="pr_ventureformal" value="Formal">
+            <label for="pr_ventureformal">Formal</label>
+            <input type="radio" name="pr_ventureform" id="pr_ventureinformal" value="Informal">
+            <label for="pr_ventureinformal">Informal</label>
+            <input type="radio" name="pr_ventureform" id="pr_venturemismal" value="Ambas igualmente">
+            <label for="pr_venturemismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_fapesp" value="FAPESP"/>
+          <label for="pr_fapesp">FAPESP</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_fapespform" id="pr_fapespformal" value="Formal">
+            <label for="pr_fapespformal">Formal</label>
+            <input type="radio" name="pr_fapespform" id="pr_fapespinformal" value="Informal">
+            <label for="pr_fapespinformal">Informal</label>
+            <input type="radio" name="pr_fapespform" id="pr_fapespmismal" value="Ambas igualmente">
+            <label for="pr_fapespmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_ies" value="Instituição de Ensino Superior (IES)"/>
+          <label for="pr_ies">Instituição de Ensino Superior (IES)</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_iesform" id="pr_iesformal" value="Formal">
+            <label for="pr_iesformal">Formal</label>
+            <input type="radio" name="pr_iesform" id="pr_iesinformal" value="Informal">
+            <label for="pr_iesinformal">Informal</label>
+            <input type="radio" name="pr_iesform" id="pr_iesmismal" value="Ambas igualmente">
+            <label for="pr_iesmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_centrospesq" value="Centros de Pesquisa e Desenvolvimento"/>
+          <label for="pr_centrospesq">Centros de Pesquisa e Desenvolvimento</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_centrospesqform" id="pr_centrospesqformal" value="Formal">
+            <label for="pr_centrospesqformal">Formal</label>
+            <input type="radio" name="pr_centrospesqform" id="pr_centrospesqinformal" value="Informal">
+            <label for="pr_centrospesqinformal">Informal</label>
+            <input type="radio" name="pr_centrospesqform" id="pr_centrospesqmismal" value="Ambas igualmente">
+            <label for="pr_centrospesqmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_nit" value="NIT (Núcleos de Inovação Tecnológica)"/>
+          <label for="pr_nit">NIT (Núcleos de Inovação Tecnológica)</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_nitform" id="pr_nitformal" value="Formal">
+            <label for="pr_nitformal">Formal</label>
+            <input type="radio" name="pr_nitform" id="pr_nitinformal" value="Informal">
+            <label for="pr_nitinformal">Informal</label>
+            <input type="radio" name="pr_nitform" id="pr_nitmismal" value="Ambas igualmente">
+            <label for="pr_nitmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_startups" value="Startups"/>
+          <label for="pr_startups">Startups</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_startupsform" id="pr_startupsformal" value="Formal">
+            <label for="pr_startupsformal">Formal</label>
+            <input type="radio" name="pr_startupsform" id="pr_startupsinformal" value="Informal">
+            <label for="pr_startupsinformal">Informal</label>
+            <input type="radio" name="pr_startupsform" id="pr_startupsmismal" value="Ambas igualmente">
+            <label for="pr_startupsmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_prefs" value="Prefeituras/Secretarias Municipais / Secretarias Estaduais"/>
+          <label for="pr_prefs">Prefeituras/Secretarias Municipais / Secretarias Estaduais</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_prefsform" id="pr_prefsformal" value="Formal">
+            <label for="pr_prefsformal">Formal</label>
+            <input type="radio" name="pr_prefsform" id="pr_prefsinformal" value="Informal">
+            <label for="pr_prefsinformal">Informal</label>
+            <input type="radio" name="pr_prefsform" id="pr_prefsmismal" value="Ambas igualmente">
+            <label for="pr_prefsmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sc" id="pr_assistencia" value="Órgãos de Assistência Técnica"/>
+          <label for="pr_assistencia">Órgãos de Assistência Técnica</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="pr_assistenciaform" id="pr_assistenciaformal" value="Formal">
+            <label for="pr_assistenciaformal">Formal</label>
+            <input type="radio" name="pr_assistenciaform" id="pr_assistenciainformal" value="Informal">
+            <label for="pr_assistenciainformal">Informal</label>
+            <input type="radio" name="pr_assistenciaform" id="pr_assistenciamismal" value="Ambas igualmente">
+            <label for="pr_assistenciamismal">Ambas igualmente</label>
+          </div></div>
+        </fieldset>
+      </div>
+
+
+
+      <div class="question">
+        <p>8) Sua organização já teve ou tem parceria com organizações (startups, empresas do agronegócio, universidades, institutos de pesquisa, hubs, parques tecnológicos, aceleradoras, incubadoras, cooperativas, empresas de venture capital, FAPESP, secretarias municipais de C&T, NITS e etc) da região de Campinas?</p>
+        <input type="radio" id="campinassim" name="parceriacampinas" value="Sim" required />
+        <label for="campinassim">Sim</label>
+        <input type="radio" id="campinasnao" name="parceriacampinas" value="Não"/>
+        <label for="campinasnao">Não</label>
+        <fieldset class="fieldhidden">
+          <legend>Assinale os tipos de organização que a organização que você representa tem ou teve parceria</legend>
+          <div class="hidden-validation-input">
+            <input type="radio" id="val4" name="valinput4" value="validated" />
+          </div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_hubs" value="Hubs de inovação"/>
+          <label for="cmp_hubs">Hubs de inovação</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_hubsform" id="cmp_hubsformal" value="Formal">
+            <label for="cmp_hubsformal">Formal</label>
+            <input type="radio" name="cmp_hubsform" id="cmp_hubsinformal" value="Informal">
+            <label for="cmp_hubsinformal">Informal</label>
+            <input type="radio" name="cmp_hubsform" id="cmp_hubsmismal" value="Ambas igualmente">
+            <label for="cmp_hubsmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_parques" value="Parques tecnológicos"/>
+          <label for="cmp_parques">Parques tecnológicos</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_parquesform" id="cmp_parquesformal" value="Formal">
+            <label for="cmp_parquesformal">Formal</label>
+            <input type="radio" name="cmp_parquesform" id="cmp_parquesinformal" value="Informal">
+            <label for="cmp_parquesinformal">Informal</label>
+            <input type="radio" name="cmp_parquesform" id="cmp_parquesmismal" value="Ambas igualmente">
+            <label for="cmp_parquesmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_aceleradoras" value="Aceleradoras"/>
+          <label for="cmp_aceleradoras">Aceleradoras</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_aceleradorasform" id="cmp_aceleradorasformal" value="Formal">
+            <label for="cmp_aceleradorasformal">Formal</label>
+            <input type="radio" name="cmp_aceleradorasform" id="cmp_aceleradorasinformal" value="Informal">
+            <label for="cmp_aceleradorasinformal">Informal</label>
+            <input type="radio" name="cmp_aceleradorasform" id="cmp_aceleradorasmismal" value="Ambas igualmente">
+            <label for="cmp_aceleradorasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_incubadoras" value="Incubadoras"/>
+          <label for="cmp_incubadoras">Incubadoras</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_incubadorasform" id="cmp_incubadorasformal" value="Formal">
+            <label for="cmp_incubadorasformal">Formal</label>
+            <input type="radio" name="cmp_incubadorasform" id="cmp_incubadorasinformal" value="Informal">
+            <label for="cmp_incubadorasinformal">Informal</label>
+            <input type="radio" name="cmp_incubadorasform" id="cmp_incubadorasmismal" value="Ambas igualmente">
+            <label for="cmp_incubadorasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_cooperativas" value="Cooperativas"/>
+          <label for="cmp_cooperativas">Cooperativas</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_cooperativasform" id="cmp_cooperativasformal" value="Formal">
+            <label for="cmp_cooperativasformal">Formal</label>
+            <input type="radio" name="cmp_cooperativasform" id="cmp_cooperativasinformal" value="Informal">
+            <label for="cmp_cooperativasinformal">Informal</label>
+            <input type="radio" name="cmp_cooperativasform" id="cmp_cooperativasmismal" value="Ambas igualmente">
+            <label for="cmp_cooperativasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_agroempresas" value="Empresas de agronegócio"/>
+          <label for="cmp_agroempresas">Empresas de Agronegócio</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_agroempresasform" id="cmp_agroempresasformal" value="Formal">
+            <label for="cmp_agroempresasformal">Formal</label>
+            <input type="radio" name="cmp_agroempresasform" id="cmp_agroempresasinformal" value="Informal">
+            <label for="cmp_agroempresasinformal">Informal</label>
+            <input type="radio" name="cmp_agroempresasform" id="cmp_agroempresasmismal" value="Ambas igualmente">
+            <label for="cmp_agroempresasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_venture" value="Venture Capital"/>
+          <label for="cmp_venture">Venture Capital</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_ventureform" id="cmp_ventureformal" value="Formal">
+            <label for="cmp_ventureformal">Formal</label>
+            <input type="radio" name="cmp_ventureform" id="cmp_ventureinformal" value="Informal">
+            <label for="cmp_ventureinformal">Informal</label>
+            <input type="radio" name="cmp_ventureform" id="cmp_venturemismal" value="Ambas igualmente">
+            <label for="cmp_venturemismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_fapesp" value="FAPESP"/>
+          <label for="cmp_fapesp">FAPESP</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_fapespform" id="cmp_fapespformal" value="Formal">
+            <label for="cmp_fapespformal">Formal</label>
+            <input type="radio" name="cmp_fapespform" id="cmp_fapespinformal" value="Informal">
+            <label for="cmp_fapespinformal">Informal</label>
+            <input type="radio" name="cmp_fapespform" id="cmp_fapespmismal" value="Ambas igualmente">
+            <label for="cmp_fapespmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_ies" value="Instituição de Ensino Superior (IES)"/>
+          <label for="cmp_ies">Instituição de Ensino Superior (IES)</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_iesform" id="cmp_iesformal" value="Formal">
+            <label for="cmp_iesformal">Formal</label>
+            <input type="radio" name="cmp_iesform" id="cmp_iesinformal" value="Informal">
+            <label for="cmp_iesinformal">Informal</label>
+            <input type="radio" name="cmp_iesform" id="cmp_iesmismal" value="Ambas igualmente">
+            <label for="cmp_iesmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_centrospesq" value="Centros de Pesquisa e Desenvolvimento"/>
+          <label for="cmp_centrospesq">Centros de Pesquisa e Desenvolvimento</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_centrospesqform" id="cmp_centrospesqformal" value="Formal">
+            <label for="cmp_centrospesqformal">Formal</label>
+            <input type="radio" name="cmp_centrospesqform" id="cmp_centrospesqinformal" value="Informal">
+            <label for="cmp_centrospesqinformal">Informal</label>
+            <input type="radio" name="cmp_centrospesqform" id="cmp_centrospesqmismal" value="Ambas igualmente">
+            <label for="cmp_centrospesqmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_nit" value="NIT (Núcleos de Inovação Tecnológica)"/>
+          <label for="cmp_nit">NIT (Núcleos de Inovação Tecnológica)</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_nitform" id="cmp_nitformal" value="Formal">
+            <label for="cmp_nitformal">Formal</label>
+            <input type="radio" name="cmp_nitform" id="cmp_nitinformal" value="Informal">
+            <label for="cmp_nitinformal">Informal</label>
+            <input type="radio" name="cmp_nitform" id="cmp_nitmismal" value="Ambas igualmente">
+            <label for="cmp_nitmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_startups" value="Startups"/>
+          <label for="cmp_startups">Startups</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_startupsform" id="cmp_startupsformal" value="Formal">
+            <label for="cmp_startupsformal">Formal</label>
+            <input type="radio" name="cmp_startupsform" id="cmp_startupsinformal" value="Informal">
+            <label for="cmp_startupsinformal">Informal</label>
+            <input type="radio" name="cmp_startupsform" id="cmp_startupsmismal" value="Ambas igualmente">
+            <label for="cmp_startupsmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_prefs" value="Prefeituras/Secretarias Municipais / Secretarias Estaduais"/>
+          <label for="cmp_prefs">Prefeituras/Secretarias Municipais / Secretarias Estaduais</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_prefsform" id="cmp_prefsformal" value="Formal">
+            <label for="cmp_prefsformal">Formal</label>
+            <input type="radio" name="cmp_prefsform" id="cmp_prefsinformal" value="Informal">
+            <label for="cmp_prefsinformal">Informal</label>
+            <input type="radio" name="cmp_prefsform" id="cmp_prefsmismal" value="Ambas igualmente">
+            <label for="cmp_prefsmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_cmp" id="cmp_assistencia" value="Órgãos de Assistência Técnica"/>
+          <label for="cmp_assistencia">Órgãos de Assistência Técnica</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="cmp_assistenciaform" id="cmp_assistenciaformal" value="Formal">
+            <label for="cmp_assistenciaformal">Formal</label>
+            <input type="radio" name="cmp_assistenciaform" id="cmp_assistenciainformal" value="Informal">
+            <label for="cmp_assistenciainformal">Informal</label>
+            <input type="radio" name="cmp_assistenciaform" id="cmp_assistenciamismal" value="Ambas igualmente">
+            <label for="cmp_assistenciamismal">Ambas igualmente</label>
+          </div></div>
+        </fieldset>
+      </div>
+
+
+
+      <div class="question">
+        <p>9) Sua organização já teve ou tem parceria com organizações (startups, empresas do agronegócio, universidades, institutos de pesquisa, hubs, parques tecnológicos, aceleradoras, incubadoras, cooperativas, empresas de venture capital, FAPESP, secretarias municipais de C&T, NITS e etc) da região de São José dos Campos?</p>
+        <input type="radio" id="saojosesim" name="parceriajose" value="Sim" required />
+        <label for="saojosesim">Sim</label>
+        <input type="radio" id="saojosenao" name="parceriajose" value="Não"/>
+        <label for="saojosenao">Não</label>
+        <fieldset class="fieldhidden">
+          <legend>Assinale os tipos de organização que a organização que você representa tem ou teve parceria</legend>
+          <div class="hidden-validation-input">
+            <input type="radio" id="val5" name="valinput5" value="validated" />
+          </div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_hubs" value="Hubs de inovação"/>
+          <label for="sjk_hubs">Hubs de inovação</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_hubsform" id="sjk_hubsformal" value="Formal">
+            <label for="sjk_hubsformal">Formal</label>
+            <input type="radio" name="sjk_hubsform" id="sjk_hubsinformal" value="Informal">
+            <label for="sjk_hubsinformal">Informal</label>
+            <input type="radio" name="sjk_hubsform" id="sjk_hubsmismal" value="Ambas igualmente">
+            <label for="sjk_hubsmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_parques" value="Parques tecnológicos"/>
+          <label for="sjk_parques">Parques tecnológicos</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_parquesform" id="sjk_parquesformal" value="Formal">
+            <label for="sjk_parquesformal">Formal</label>
+            <input type="radio" name="sjk_parquesform" id="sjk_parquesinformal" value="Informal">
+            <label for="sjk_parquesinformal">Informal</label>
+            <input type="radio" name="sjk_parquesform" id="sjk_parquesmismal" value="Ambas igualmente">
+            <label for="sjk_parquesmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_aceleradoras" value="Aceleradoras"/>
+          <label for="sjk_aceleradoras">Aceleradoras</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_aceleradorasform" id="sjk_aceleradorasformal" value="Formal">
+            <label for="sjk_aceleradorasformal">Formal</label>
+            <input type="radio" name="sjk_aceleradorasform" id="sjk_aceleradorasinformal" value="Informal">
+            <label for="sjk_aceleradorasinformal">Informal</label>
+            <input type="radio" name="sjk_aceleradorasform" id="sjk_aceleradorasmismal" value="Ambas igualmente">
+            <label for="sjk_aceleradorasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_incubadoras" value="Incubadoras"/>
+          <label for="sjk_incubadoras">Incubadoras</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_incubadorasform" id="sjk_incubadorasformal" value="Formal">
+            <label for="sjk_incubadorasformal">Formal</label>
+            <input type="radio" name="sjk_incubadorasform" id="sjk_incubadorasinformal" value="Informal">
+            <label for="sjk_incubadorasinformal">Informal</label>
+            <input type="radio" name="sjk_incubadorasform" id="sjk_incubadorasmismal" value="Ambas igualmente">
+            <label for="sjk_incubadorasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_cooperativas" value="Cooperativas"/>
+          <label for="sjk_cooperativas">Cooperativas</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_cooperativasform" id="sjk_cooperativasformal" value="Formal">
+            <label for="sjk_cooperativasformal">Formal</label>
+            <input type="radio" name="sjk_cooperativasform" id="sjk_cooperativasinformal" value="Informal">
+            <label for="sjk_cooperativasinformal">Informal</label>
+            <input type="radio" name="sjk_cooperativasform" id="sjk_cooperativasmismal" value="Ambas igualmente">
+            <label for="sjk_cooperativasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_agroempresas" value="Empresas de agronegócio"/>
+          <label for="sjk_agroempresas">Empresas de Agronegócio</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_agroempresasform" id="sjk_agroempresasformal" value="Formal">
+            <label for="sjk_agroempresasformal">Formal</label>
+            <input type="radio" name="sjk_agroempresasform" id="sjk_agroempresasinformal" value="Informal">
+            <label for="sjk_agroempresasinformal">Informal</label>
+            <input type="radio" name="sjk_agroempresasform" id="sjk_agroempresasmismal" value="Ambas igualmente">
+            <label for="sjk_agroempresasmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_venture" value="Venture Capital"/>
+          <label for="sjk_venture">Venture Capital</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_ventureform" id="sjk_ventureformal" value="Formal">
+            <label for="sjk_ventureformal">Formal</label>
+            <input type="radio" name="sjk_ventureform" id="sjk_ventureinformal" value="Informal">
+            <label for="sjk_ventureinformal">Informal</label>
+            <input type="radio" name="sjk_ventureform" id="sjk_venturemismal" value="Ambas igualmente">
+            <label for="sjk_venturemismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_fapesp" value="FAPESP"/>
+          <label for="sjk_fapesp">FAPESP</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_fapespform" id="sjk_fapespformal" value="Formal">
+            <label for="sjk_fapespformal">Formal</label>
+            <input type="radio" name="sjk_fapespform" id="sjk_fapespinformal" value="Informal">
+            <label for="sjk_fapespinformal">Informal</label>
+            <input type="radio" name="sjk_fapespform" id="sjk_fapespmismal" value="Ambas igualmente">
+            <label for="sjk_fapespmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_ies" value="Instituição de Ensino Superior (IES)"/>
+          <label for="sjk_ies">Instituição de Ensino Superior (IES)</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_iesform" id="sjk_iesformal" value="Formal">
+            <label for="sjk_iesformal">Formal</label>
+            <input type="radio" name="sjk_iesform" id="sjk_iesinformal" value="Informal">
+            <label for="sjk_iesinformal">Informal</label>
+            <input type="radio" name="sjk_iesform" id="sjk_iesmismal" value="Ambas igualmente">
+            <label for="sjk_iesmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_centrospesq" value="Centros de Pesquisa e Desenvolvimento"/>
+          <label for="sjk_centrospesq">Centros de Pesquisa e Desenvolvimento</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_centrospesqform" id="sjk_centrospesqformal" value="Formal">
+            <label for="sjk_centrospesqformal">Formal</label>
+            <input type="radio" name="sjk_centrospesqform" id="sjk_centrospesqinformal" value="Informal">
+            <label for="sjk_centrospesqinformal">Informal</label>
+            <input type="radio" name="sjk_centrospesqform" id="sjk_centrospesqmismal" value="Ambas igualmente">
+            <label for="sjk_centrospesqmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_nit" value="NIT (Núcleos de Inovação Tecnológica)"/>
+          <label for="sjk_nit">NIT (Núcleos de Inovação Tecnológica)</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_nitform" id="sjk_nitformal" value="Formal">
+            <label for="sjk_nitformal">Formal</label>
+            <input type="radio" name="sjk_nitform" id="sjk_nitinformal" value="Informal">
+            <label for="sjk_nitinformal">Informal</label>
+            <input type="radio" name="sjk_nitform" id="sjk_nitmismal" value="Ambas igualmente">
+            <label for="sjk_nitmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_startups" value="Startups"/>
+          <label for="sjk_startups">Startups</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_startupsform" id="sjk_startupsformal" value="Formal">
+            <label for="sjk_startupsformal">Formal</label>
+            <input type="radio" name="sjk_startupsform" id="sjk_startupsinformal" value="Informal">
+            <label for="sjk_startupsinformal">Informal</label>
+            <input type="radio" name="sjk_startupsform" id="sjk_startupsmismal" value="Ambas igualmente">
+            <label for="sjk_startupsmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_prefs" value="Prefeituras/Secretarias Municipais / Secretarias Estaduais"/>
+          <label for="sjk_prefs">Prefeituras/Secretarias Municipais / Secretarias Estaduais</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_prefsform" id="sjk_prefsformal" value="Formal">
+            <label for="sjk_prefsformal">Formal</label>
+            <input type="radio" name="sjk_prefsform" id="sjk_prefsinformal" value="Informal">
+            <label for="sjk_prefsinformal">Informal</label>
+            <input type="radio" name="sjk_prefsform" id="sjk_prefsmismal" value="Ambas igualmente">
+            <label for="sjk_prefsmismal">Ambas igualmente</label>
+          </div></div>
+          <div><input type="checkbox" name="parcerias_sjk" id="sjk_assistencia" value="Órgãos de Assistência Técnica"/>
+          <label for="sjk_assistencia">Órgãos de Assistência Técnica</label>
+          <div class="hidden">
+            <p>Qual é o tipo de parceria realizada na maioria das parcerias?</p>
+            <input type="radio" name="sjk_assistenciaform" id="sjk_assistenciaformal" value="Formal">
+            <label for="sjk_assistenciaformal">Formal</label>
+            <input type="radio" name="sjk_assistenciaform" id="sjk_assistenciainformal" value="Informal">
+            <label for="sjk_assistenciainformal">Informal</label>
+            <input type="radio" name="sjk_assistenciaform" id="sjk_assistenciamismal" value="Ambas igualmente">
+            <label for="sjk_assistenciamismal">Ambas igualmente</label>
+          </div></div>
+        </fieldset>
+      </div>
+
+      <div class="question">
+        <p>10) Quais demandas tecnológicas abaixo são estratégicas para a **sobrevivência do seu negócio**? 
+          Assinale até 3 e especifique nos campos qual a área de aplicação da demanda escolhida. Exemplos: 
+          
+          (X)Drones/Vants: Aplicação de herbicidas
+          (X)Visão Computacional: Processamento de imagens. Reconhecimento de doenças em plantas
+          (X)Edição genômica: Uso da tecnologia CRISPR para novas cultivares de café.</p>
+          <div class="hidden-validation-input">
+            <input type="radio" id="val6" name="valinpu6" value="validated" required />
+          </div>
+          
+          <div><input type="checkbox" name="sobrevivencia" id="ia" value="Inteligência Artificial (IA) e Aprendizado de máquina."/>
+          <label for="ia">Inteligência Artificial (IA) e Aprendizado de máquina.</label>
+          <div class="hidden-motive">
+            <label for="apia">Área de aplicação</label>
+            <input type="text" name="apia" id="apia"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="analytics" value="Analytics e Big Data."/>
+          <label for="analytics">Analytics e Big Data.</label>
+          <div class="hidden-motive">
+            <label for="apanalytics">Área de aplicação</label>
+            <input type="text" name="apanalytics" id="apanalytics"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="cloud" value="Cloud computing e cibersegurança."/>
+          <label for="cloud">Cloud computing e cibersegurança.</label>
+          <div class="hidden-motive">
+            <label for="apcloud">Área de aplicação</label>
+            <input type="text" name="apcloud" id="apcloud"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="interfaces" value="Interfaces naturais e assistentes virtuais."/>
+          <label for="interfaces">Interfaces naturais e assistentes virtuais.</label>
+          <div class="hidden-motive">
+            <label for="apinterfaces">Área de aplicação</label>
+            <input type="text" name="apinterfaces" id="apinterfaces"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="drones" value="Drones / Vants."/>
+          <label for="drones">Drones / Vants.</label>
+          <div class="hidden-motive">
+            <label for="apdrones">Área de aplicação</label>
+            <input type="text" name="apdrones" id="apdrones"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="visaocp" value="Visão computacional / Processamento de imagens (RA/RV)."/>
+          <label for="visaocp">Visão computacional / Processamento de imagens (RA/RV).</label>
+          <div class="hidden-motive">
+            <label for="apvisaocp">Área de aplicação</label>
+            <input type="text" name="apvisaocp" id="apvisaocp"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="saas" value="SaaS."/>
+          <label for="saas">SaaS.</label>
+          <div class="hidden-motive">
+            <label for="apsaas">Área de aplicação</label>
+            <input type="text" name="apsaas" id="apsaas"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="digitalt" value="Digital twins."/>
+          <label for="digitalt">Digital twins.</label>
+          <div class="hidden-motive">
+            <label for="apdigitalt">Área de aplicação</label>
+            <input type="text" name="apdigitalt" id="apdigitalt"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="meteoro" value="Meteorologia digital."/>
+          <label for="meteoro">Meteorologia digital.</label>
+          <div class="hidden-motive">
+            <label for="apmeteoro">Área de aplicação</label>
+            <input type="text" name="apmeteoro" id="apmeteoro"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="georef" value="Georreferenciamento e cartografia digital."/>
+          <label for="georef">Georreferenciamento e cartografia digital.</label>
+          <div class="hidden-motive">
+            <label for="apgeoref">Área de aplicação</label>
+            <input type="text" name="apgeoref" id="apgeoref"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="eos" value="EOS - Earth Observation System / Satélites."/>
+          <label for="eos">EOS - Earth Observation System / Satélites.</label>
+          <div class="hidden-motive">
+            <label for="apeos">Área de aplicação</label>
+            <input type="text" name="apeos" id="apeos"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="decarb" value="Descarbonização."/>
+          <label for="decarb">Descarbonização.</label>
+          <div class="hidden-motive">
+            <label for="apdecarb">Área de aplicação</label>
+            <input type="text" name="apdecarb" id="apdecarb"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="hidro" value="Hidrogênio Verde."/>
+          <label for="hidro">Hidrogênio Verde.</label>
+          <div class="hidden-motive">
+            <label for="aphidro">Área de aplicação</label>
+            <input type="text" name="aphidro" id="aphidro"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="combs" value="Combustíveis e energias alternativas."/>
+          <label for="combs">Combustíveis e energias alternativas.</label>
+          <div class="hidden-motive">
+            <label for="apcombs">Área de aplicação</label>
+            <input type="text" name="apcombs" id="apcombs"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="biobased" value="Biobased resíduos."/>
+          <label for="biobased">Biobased resíduos.</label>
+          <div class="hidden-motive">
+            <label for="apbiobased">Área de aplicação</label>
+            <input type="text" name="apbiobased" id="apbiobased"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="proteinas" value="Proteínas alternativas."/>
+          <label for="proteinas">Proteínas alternativas.</label>
+          <div class="hidden-motive">
+            <label for="approteinas">Área de aplicação</label>
+            <input type="text" name="approteinas" id="approteinas"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="edgenom" value="Edição genômica."/>
+          <label for="edgenom">Edição genômica.</label>
+          <div class="hidden-motive">
+            <label for="apedgenom">Área de aplicação</label>
+            <input type="text" name="apedgenom" id="apedgenom"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="fenotip" value="Fenotipagem digital."/>
+          <label for="fenotip">Fenotipagem digital.</label>
+          <div class="hidden-motive">
+            <label for="apfenotip">Área de aplicação</label>
+            <input type="text" name="apfenotip" id="apfenotip"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="anatomia" value="Autonomia e computação de borda."/>
+          <label for="anatomia">Autonomia e computação de borda.</label>
+          <div class="hidden-motive">
+            <label for="apanatomia">Área de aplicação</label>
+            <input type="text" name="apanatomia" id="apanatomia"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="iot" value="IoT / Sensores."/>
+          <label for="iot">IoT / Sensores.</label>
+          <div class="hidden-motive">
+            <label for="apiot">Área de aplicação</label>
+            <input type="text" name="apiot" id="apiot"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="blockchain" value="Blockchain."/>
+          <label for="blockchain">Blockchain.</label>
+          <div class="hidden-motive">
+            <label for="apblockchain">Área de aplicação</label>
+            <input type="text" name="apblockchain" id="apblockchain"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="token" value="Tokenização de ativos."/>
+          <label for="token">Tokenização de ativos.</label>
+          <div class="hidden-motive">
+            <label for="aptoken">Área de aplicação</label>
+            <input type="text" name="aptoken" id="aptoken"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="conect" value="Conectividade 5G."/>
+          <label for="conect">Conectividade 5G.</label>
+          <div class="hidden-motive">
+            <label for="apconect">Área de aplicação</label>
+            <input type="text" name="apconect" id="apconect"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="biotec" value="Biotecnologia."/>
+          <label for="biotec">Biotecnologia.</label>
+          <div class="hidden-motive">
+            <label for="apbiotec">Área de aplicação</label>
+            <input type="text" name="apbiotec" id="apbiotec"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="nanotec" value="Nanotecnologia."/>
+          <label for="nanotec">Nanotecnologia.</label>
+          <div class="hidden-motive">
+            <label for="apnanotec">Área de aplicação</label>
+            <input type="text" name="apnanotec" id="apnanotec"/>
+          </div></div>
+          <div><input type="checkbox" name="sobrevivencia" id="metaverso" value="Metaverso."/>
+          <label for="metaverso">Metaverso.</label>
+          <div class="hidden-motive">
+            <label for="apmetaverso">Área de aplicação</label>
+            <input type="text" name="apmetaverso" id="apmetaverso"/>
+          </div></div>
+          
+      </div>
+
+
+      <div class="question">
+        <p>11) Quais demandas tecnológicas abaixo sua organização faria investimentos para dar um salto nos negócios? 
+          Assinale até 3 e especifique nos campos qual a área de aplicação da demanda escolhida. Exemplos: 
+          
+          (X)Drones/Vants: Aplicação de herbicidas
+          (X)Visão Computacional: Processamento de imagens. Reconhecimento de doenças em plantas
+          (X)Edição genômica: Uso da tecnologia CRISPR para novas cultivares de café.</p>
+        
+          <div class="hidden-validation-input">
+            <input type="radio" id="val7" name="valinpu7" value="validated" required/>
+          </div>
+          <div><input type="checkbox" name="salto" id="slt_ia" value="Inteligência Artificial (IA) e Aprendizado de máquina."/>
+          <label for="slt_ia">Inteligência Artificial (IA) e Aprendizado de máquina.</label>
+          <div class="hidden-motive">
+            <label for="slt_apia">Área de aplicação</label>
+            <input type="text" name="apia" id="slt_apia"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_analytics" value="Analytics e Big Data."/>
+          <label for="slt_analytics">Analytics e Big Data.</label>
+          <div class="hidden-motive">
+            <label for="slt_apanalytics">Área de aplicação</label>
+            <input type="text" name="apanalytics" id="slt_apanalytics"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_cloud" value="Cloud computing e cibersegurança."/>
+          <label for="slt_cloud">Cloud computing e cibersegurança.</label>
+          <div class="hidden-motive">
+            <label for="slt_apcloud">Área de aplicação</label>
+            <input type="text" name="apcloud" id="slt_apcloud"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_interfaces" value="Interfaces naturais e assistentes virtuais."/>
+          <label for="slt_interfaces">Interfaces naturais e assistentes virtuais.</label>
+          <div class="hidden-motive">
+            <label for="slt_apinterfaces">Área de aplicação</label>
+            <input type="text" name="apinterfaces" id="slt_apinterfaces"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_drones" value="Drones / Vants."/>
+          <label for="slt_drones">Drones / Vants.</label>
+          <div class="hidden-motive">
+            <label for="slt_apdrones">Área de aplicação</label>
+            <input type="text" name="apdrones" id="slt_apdrones"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_visaocp" value="Visão computacional / Processamento de imagens (RA/RV)."/>
+          <label for="slt_visaocp">Visão computacional / Processamento de imagens (RA/RV).</label>
+          <div class="hidden-motive">
+            <label for="slt_apvisaocp">Área de aplicação</label>
+            <input type="text" name="apvisaocp" id="slt_apvisaocp"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_saas" value="SaaS."/>
+          <label for="slt_saas">SaaS.</label>
+          <div class="hidden-motive">
+            <label for="slt_apsaas">Área de aplicação</label>
+            <input type="text" name="apsaas" id="slt_apsaas"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_digitalt" value="Digital twins."/>
+          <label for="slt_digitalt">Digital twins.</label>
+          <div class="hidden-motive">
+            <label for="slt_apdigitalt">Área de aplicação</label>
+            <input type="text" name="apdigitalt" id="slt_apdigitalt"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_meteoro" value="Meteorologia digital."/>
+          <label for="slt_meteoro">Meteorologia digital.</label>
+          <div class="hidden-motive">
+            <label for="slt_apmeteoro">Área de aplicação</label>
+            <input type="text" name="apmeteoro" id="slt_apmeteoro"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_georef" value="Georreferenciamento e cartografia digital."/>
+          <label for="slt_georef">Georreferenciamento e cartografia digital.</label>
+          <div class="hidden-motive">
+            <label for="slt_apgeoref">Área de aplicação</label>
+            <input type="text" name="apgeoref" id="slt_apgeoref"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_eos" value="EOS - Earth Observation System / Satélites."/>
+          <label for="slt_eos">EOS - Earth Observation System / Satélites.</label>
+          <div class="hidden-motive">
+            <label for="slt_apeos">Área de aplicação</label>
+            <input type="text" name="apeos" id="slt_apeos"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_decarb" value="Descarbonização."/>
+          <label for="slt_decarb">Descarbonização.</label>
+          <div class="hidden-motive">
+            <label for="slt_apdecarb">Área de aplicação</label>
+            <input type="text" name="apdecarb" id="slt_apdecarb"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_hidro" value="Hidrogênio Verde."/>
+          <label for="slt_hidro">Hidrogênio Verde.</label>
+          <div class="hidden-motive">
+            <label for="slt_aphidro">Área de aplicação</label>
+            <input type="text" name="aphidro" id="slt_aphidro"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_combs" value="Combustíveis e energias alternativas."/>
+          <label for="slt_combs">Combustíveis e energias alternativas.</label>
+          <div class="hidden-motive">
+            <label for="slt_apcombs">Área de aplicação</label>
+            <input type="text" name="apcombs" id="slt_apcombs"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_biobased" value="Biobased resíduos."/>
+          <label for="slt_biobased">Biobased resíduos.</label>
+          <div class="hidden-motive">
+            <label for="slt_apbiobased">Área de aplicação</label>
+            <input type="text" name="apbiobased" id="slt_apbiobased"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_proteinas" value="Proteínas alternativas."/>
+          <label for="slt_proteinas">Proteínas alternativas.</label>
+          <div class="hidden-motive">
+            <label for="slt_approteinas">Área de aplicação</label>
+            <input type="text" name="approteinas" id="slt_approteinas"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_edgenom" value="Edição genômica."/>
+          <label for="slt_edgenom">Edição genômica.</label>
+          <div class="hidden-motive">
+            <label for="slt_apedgenom">Área de aplicação</label>
+            <input type="text" name="apedgenom" id="slt_apedgenom"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_fenotip" value="Fenotipagem digital."/>
+          <label for="slt_fenotip">Fenotipagem digital.</label>
+          <div class="hidden-motive">
+            <label for="slt_apfenotip">Área de aplicação</label>
+            <input type="text" name="apfenotip" id="slt_apfenotip"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_anatomia" value="Autonomia e computação de borda."/>
+          <label for="slt_anatomia">Autonomia e computação de borda.</label>
+          <div class="hidden-motive">
+            <label for="slt_apanatomia">Área de aplicação</label>
+            <input type="text" name="apanatomia" id="slt_apanatomia"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_iot" value="IoT / Sensores."/>
+          <label for="slt_iot">IoT / Sensores.</label>
+          <div class="hidden-motive">
+            <label for="slt_apiot">Área de aplicação</label>
+            <input type="text" name="apiot" id="slt_apiot"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_blockchain" value="Blockchain."/>
+          <label for="slt_blockchain">Blockchain.</label>
+          <div class="hidden-motive">
+            <label for="slt_apblockchain">Área de aplicação</label>
+            <input type="text" name="apblockchain" id="slt_apblockchain"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_token" value="Tokenização de ativos."/>
+          <label for="slt_token">Tokenização de ativos.</label>
+          <div class="hidden-motive">
+            <label for="slt_aptoken">Área de aplicação</label>
+            <input type="text" name="aptoken" id="slt_aptoken"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_conect" value="Conectividade 5G."/>
+          <label for="slt_conect">Conectividade 5G.</label>
+          <div class="hidden-motive">
+            <label for="slt_apconect">Área de aplicação</label>
+            <input type="text" name="apconect" id="slt_apconect"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_biotec" value="Biotecnologia."/>
+          <label for="slt_biotec">Biotecnologia.</label>
+          <div class="hidden-motive">
+            <label for="slt_apbiotec">Área de aplicação</label>
+            <input type="text" name="apbiotec" id="slt_apbiotec"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_nanotec" value="Nanotecnologia."/>
+          <label for="slt_nanotec">Nanotecnologia.</label>
+          <div class="hidden-motive">
+            <label for="slt_apnanotec">Área de aplicação</label>
+            <input type="text" name="apnanotec" id="slt_apnanotec"/>
+          </div></div>
+          <div><input type="checkbox" name="salto" id="slt_metaverso" value="Metaverso."/>
+          <label for="slt_metaverso">Metaverso.</label>
+          <div class="hidden-motive">
+            <label for="slt_apmetaverso">Área de aplicação</label>
+            <input type="text" name="apmetaverso" id="slt_apmetaverso"/>
+          </div></div>
+          
+      </div>
+
+
+      <div class="question">
+        <label for="expectativa">12) Qual a expectativa da organização que você representa em participar de ecossistemas de inovação do agronegócio?</label>
+        <textarea name="expectativa" id="expectativa" required cols="30" rows="6"></textarea>
+        
+      </div>
+      <div class="question">
+        <label for="expectativa_ciaes">13) Qual a expectativa da organização que você representa em participar do Corredor de Inovação Agropecuária do Estado de São Paulo?</label>
+        <textarea name="expectativa_ciaes" id="expectativa_ciaes" required cols="30" rows="6"></textarea>
+      </div>
+
+      <button type="submit" id="submit">Enviar</button>
+    </form>
+  </div>
 </body>
 <style>
   * {
@@ -33,17 +1324,116 @@
     padding: 60px 0;
   }
 
+  .body-starter {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
 
-  #tripetto-tid7ed {
+  .presentation-notice {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #889966;
+  }
+
+
+  form, .presentation-notice > div {
     background-color: white;
     max-width: 700px;
     width: 85%;
     margin: auto;
     padding: 25px;
     height: auto;
-    text-align: center;
+    text-align: left;
     border-radius: 20px;
   }
+
+  .presentation-notice > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 90%;
+    overflow-y: auto;
+  }
+
+  .presentation-notice p {
+    margin-bottom: 15px;
+  }
+
+
+  .question {
+    margin-top: 15px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  input {
+    accent-color: black;
+  }
+
+  input[type="radio"] + label, input[type="checkbox"] + label, input[type="radio"], input[type="checkbox"] {
+    cursor: pointer;
+  }
+
+  .question > p, .question > label {
+    margin-bottom: 8px;
+  }
+
+  input[type="text"], textarea {
+    display: inline-block;
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 8px;
+    padding-left: 6px;
+  }
+
+  input[type="text"] {
+    min-height: 30px;
+  }
+
+  textarea {
+    display: block;
+  }
+
+
+  .hidden, .fieldhidden, .hidden-motive  {
+    display: none;
+    margin: 8px 0 15px 30px;
+  }
+
+  .fieldhidden {
+    margin-left: 20px;
+  }
+
+  input[id^='outro']:checked ~ .hidden {
+    display: block;
+  }
+
+  input[id$="sim"]:checked ~ .fieldhidden {
+    display: block;
+  }
+
+  input[name^="parcerias"]:checked + label + div {
+    display: block;
+  }
+
+  input[name="salto"]:checked + label + div, input[name="sobrevivencia"]:checked + label + div {
+    display: block;
+  }
+
+  .hidden-validation-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+  }
+
 
   @media (max-width: 767px) {
     iframe {
@@ -51,4 +1441,109 @@
     }
   }
 </style>
+<script>
+  const simGroup = document.querySelectorAll("input[name^='parceria']:not(input[name^='parcerias'])");
+  const lastQuestions = document.querySelectorAll(".question input[name^='sobrevivencia'], .question input[name^='salto']");
+  const presentation = document.querySelector(".presentation-notice");
+  const formStart = document.querySelector(".form-starter");
+
+  formStart.addEventListener("click", e => {
+    presentation.style.display = "none";
+    document.body.classList.remove("body-starter");
+  })
+  
+  simGroup.forEach(sim => {
+    sim.addEventListener("change", e => {
+      const parent = e.target.parentElement;
+      const requiredInput = parent.querySelector("fieldset input[name^='valinput']");
+      const checkboxes = parent.querySelectorAll("input[name^='parcerias']");
+
+      if (e.target.value.toLowerCase() == "sim") {
+        requiredInput.setAttribute("required", "required");
+        
+        checkboxes.forEach(checkbox => {
+          checkbox.addEventListener("change", e => {
+            if (e.target.checked == true) {
+              if (requiredInput.required) {
+                requiredInput.removeAttribute("required");
+              }
+              e.target.parentElement.querySelector("input[type='radio']").setAttribute("required", "required");
+            } else {
+              if (!Array.from(checkboxes).find(check => check.checked)) {
+                requiredInput.setAttribute("required", "required");
+              }
+              e.target.parentElement.querySelector("input[type='radio']").removeAttribute("required");
+            }
+          })
+        })
+      } else 
+        requiredInput.removeAttribute("required");
+    })
+  })
+
+  lastQuestions.forEach(question => {
+    question.addEventListener("change", e => {
+      const requiredInput = e.target.parentElement.parentElement.querySelector("input[name^='valinpu']");
+      const checkboxes = e.target.parentElement.parentElement.querySelectorAll("input[type='checkbox']");
+      const selectedCheckboxes = e.target.parentElement.parentElement.querySelectorAll("input[type='checkbox']:checked");
+      
+      if (selectedCheckboxes.length == 3) {
+          checkboxes.forEach(checky => {
+            
+            if (checky.checked) {
+              return
+            } else {
+            
+              checky.disabled = "disabled";
+            }
+          })
+      }
+
+      if (e.target.checked == true) {
+        
+        requiredInput.removeAttribute("required");
+        e.target.parentElement.querySelector("input[type='text']").setAttribute("required", "required");
+      
+      } else {
+        e.target.parentElement.querySelector("input[type='text']").removeAttribute("required");
+        if (!Array.from(e.target.parentElement.parentElement.querySelectorAll('input[name="' + e.target.name + '"]')).find(quest => quest.checked)) {
+          
+          requiredInput.setAttribute("required", "required");
+        }
+
+        if (selectedCheckboxes.length < 3) {
+          checkboxes.forEach(cheks => cheks.removeAttribute("disabled"))
+        }
+      }
+      
+      
+    })
+  })
+</script>
+<script>
+  document.getElementById('form').addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      const formData = new FormData(e.target);
+      const data = {};
+      formData.forEach((value, key) => {
+          data[key] = value;
+      });
+
+      const response = await fetch('https://script.google.com/macros/s/AKfycbzv9Zir5nv3hSzztLLWUv-WLUZIQMyw9pBEvRLwLq6SkRoYuPnb1X8_wZJ4_XuGtvmf/exec', {
+          method: 'POST',
+          body: JSON.stringify(data),
+          headers: {
+              'Content-Type': 'application/json'
+          }
+      });
+
+      if (response.ok) {
+          alert('Form submitted successfully!');
+          e.target.reset();
+      } else {
+          alert('Form submission failed. Please try again.');
+      }
+  });
+</script>
 </html>
