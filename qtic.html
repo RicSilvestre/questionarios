@@ -1433,18 +1433,6 @@
   const lastQuestions = document.querySelectorAll(".question input[name^='sobrevivencia'], .question input[name^='salto']");
   const presentation = document.querySelector(".presentation-notice");
   const formStart = document.querySelector(".form-starter");
-  const outroCargo = document.querySelectorAll("input[name='cargo']");
-  const qualcargo = document.querySelector("input#qualcargo");
-
-  outroCargo.forEach(outr => {
-    outr.addEventListener("change", e => {
-      if (e.target.id == "outro") {
-        qualcargo.setAttribute("required", "required")
-      } else {
-        qualcargo.removeAttribute("required")
-      }
-    })
-  })
 
   formStart.addEventListener("click", e => {
     presentation.style.display = "none";
@@ -1542,7 +1530,7 @@
           }
       });
 
-      const response = await fetch('https://script.google.com/macros/s/AKfycbxEJRRMcgtCxiXnq0-FJrDR0bLQ4n4TMVJe_gOi9e95UNNSdgLDVN8CGF5y2LUkqRyu/exec', {
+      const response = await fetch('https://script.google.com/macros/s/AKfycbwQc6KOzb3INm9YyS4i0AqPlSNOpe2Wyji6U-1bvEm_uOBDRJ505knlKsMU-9IA9QYK/exec', {
           redirect: "follow",
           method: 'POST',
           body: JSON.stringify(data),
